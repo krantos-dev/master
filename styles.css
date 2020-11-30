@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 40px;
+}
+
+h1,h2 {
+    color: greenyellow;
+}
+
+
+#master_logo {
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coachpic {
+    width: 100%;
+    height: 70%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+main__text{ 
+    display: flex;
+    object-fit: contain;
+    text-align: center;
+
+}
+main__image {
+    display:flex;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row;
+}
+
+.box1,.box2,.box3{
+    flex-basis: 33%;
+    text-align: center;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
